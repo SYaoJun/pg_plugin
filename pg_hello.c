@@ -1,6 +1,8 @@
 #include "postgres.h"
-
 #include "fmgr.h"
+#include "utils/elog.h"
+#include "utils/builtins.h"
+#include "varatt.h"
 
 #ifdef PG_MODULE_MAGIC
 PG_MODULE_MAGIC;

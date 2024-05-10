@@ -2,5 +2,5 @@
 \echo Use "CREATE EXTENSION pg_hello" to load this file. \quit
 
 CREATE OR REPLACE FUNCTION hello( TEXT ) RETURNS TEXT
-  AS 'hello_world' LANGUAGE C;
+  AS 'pg_hello' LANGUAGE C;
 
